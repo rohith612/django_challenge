@@ -1,0 +1,12 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block page_title %} Monthly Challenges {% endblock page_title %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    {% block css_files %}{% endblock css_files %}
+</head>
+    <body>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
